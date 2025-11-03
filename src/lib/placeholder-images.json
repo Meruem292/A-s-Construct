@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "A stunning modern building with a geometric facade against a clear blue sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyMDY1NjUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/heroBg.jpg",
       "imageHint": "modern architecture"
     },
     {
@@ -26,39 +26,39 @@
     },
     {
       "id": "gallery-1",
-      "description": "Architectural detail of a building facade.",
-      "imageUrl": "https://images.unsplash.com/photo-1494177242659-c726060f48dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidWlsZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3NjIxNTAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "building facade"
+      "description": "A school building project.",
+      "imageUrl": "/school1.jpg",
+      "imageHint": "school building"
     },
     {
       "id": "gallery-2",
-      "description": "Interior of a newly constructed lobby with high ceilings.",
-      "imageUrl": "https://images.unsplash.com/photo-1749310726959-d8fccfef7ee4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBsb2JieXxlbnwwfHx8fDE3NjIxMTI2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern lobby"
+      "description": "Another construction project.",
+      "imageUrl": "/school2.jpg",
+      "imageHint": "construction project"
     },
     {
       "id": "gallery-3",
-      "description": "Construction workers reviewing blueprints on site.",
-      "imageUrl": "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzfGVufDB8fHx8MTc2MjE0MjIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "construction workers"
+      "description": "A completed construction project.",
+      "imageUrl": "/school3.jpg",
+      "imageHint": "completed project"
     },
     {
       "id": "gallery-4",
-      "description": "A finished kitchen in a luxury apartment.",
-      "imageUrl": "https://images.unsplash.com/photo-1639405069836-f82aa6dcb900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MjA2ODgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern kitchen"
+      "description": "A residential construction project.",
+      "imageUrl": "/school4.jpg",
+      "imageHint": "residential construction"
     },
     {
       "id": "gallery-5",
-      "description": "Drone shot of a large-scale commercial construction project.",
-      "imageUrl": "https://images.unsplash.com/photo-1723107638784-a8fef41c3a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb25zdHJ1Y3Rpb24lMjBkcm9uZXxlbnwwfHx8fDE3NjIxNTAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "construction drone"
+      "description": "A commercial building project.",
+      "imageUrl": "/school5.jpg",
+      "imageHint": "commercial building"
     },
     {
       "id": "gallery-6",
-      "description": "Landscaping around a completed residential project.",
-      "imageUrl": "https://images.unsplash.com/photo-1761637823293-f96835ec5038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBsYW5kc2NhcGluZ3xlbnwwfHx8fDE3NjIwODc5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern landscaping"
+      "description": "An interior construction view.",
+      "imageUrl": "/school6.jpg",
+      "imageHint": "interior construction"
     }
   ]
 }
