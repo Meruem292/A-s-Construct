@@ -67,8 +67,8 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FadeIn className="md:col-span-1 space-y-6">
              <div className="flex items-start gap-4">
-               <div className="bg-accent/20 p-3 rounded-full">
-                  <Phone className="w-6 h-6 text-accent"/>
+               <div className="bg-primary/10 p-3 rounded-full">
+                  <Phone className="w-6 h-6 text-primary"/>
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Call Us</h3>
@@ -76,8 +76,8 @@ export default function Contact() {
                </div>
              </div>
              <div className="flex items-start gap-4">
-                <div className="bg-accent/20 p-3 rounded-full">
-                  <Mail className="w-6 h-6 text-accent"/>
+                <div className="bg-primary/10 p-3 rounded-full">
+                  <Mail className="w-6 h-6 text-primary"/>
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Email Us</h3>
@@ -85,8 +85,8 @@ export default function Contact() {
                </div>
              </div>
              <div className="flex items-start gap-4">
-               <div className="bg-accent/20 p-3 rounded-full">
-                  <Building className="w-6 h-6 text-accent"/>
+               <div className="bg-primary/10 p-3 rounded-full">
+                  <Building className="w-6 h-6 text-primary"/>
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Our Office</h3>
@@ -144,7 +144,7 @@ export default function Contact() {
                     />
                     <Button
                       type="submit"
-                      className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
+                      className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
                       disabled={form.formState.isSubmitting}
                     >
                       {form.formState.isSubmitting ? "Sending..." : "Send Message"}

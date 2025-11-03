@@ -1,4 +1,4 @@
-import { Building, HardHat, Wrench, Bot } from "lucide-react";
+import { Building, HardHat, Wrench } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -9,28 +9,28 @@ import { FadeIn } from "./fade-in";
 
 const services = [
   {
-    icon: <Building className="h-10 w-10 text-accent" />,
+    icon: <Building className="h-10 w-10 text-primary" />,
     title: "Commercial Construction",
     description:
       "Building large-scale commercial properties from the ground up, tailored to your business needs.",
   },
   {
-    icon: <HardHat className="h-10 w-10 text-accent" />,
+    icon: <HardHat className="h-10 w-10 text-primary" />,
     title: "Residential Construction",
     description:
       "Crafting high-quality custom homes and residential complexes with attention to detail and craftsmanship.",
   },
   {
-    icon: <Wrench className="h-10 w-10 text-accent" />,
+    icon: <Wrench className="h-10 w-10 text-primary" />,
     title: "Renovations & Remodeling",
     description:
       "Transforming existing spaces with modern upgrades, historic restorations, and functional improvements.",
   },
   {
-    icon: <Bot className="h-10 w-10 text-accent" />,
-    title: "Automation & Robotic Systems",
+    icon: <HardHat className="h-10 w-10 text-primary" />,
+    title: "General Contracting",
     description:
-      "Implementing advanced automation to streamline operations and boost productivity in industrial and commercial settings.",
+      "Overseeing your entire project from planning and design to completion, ensuring quality and efficiency.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Services() {
               Our Expertise
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              We provide a comprehensive range of construction and automation services.
+              We provide a comprehensive range of construction services to meet any need.
             </p>
           </div>
         </FadeIn>
