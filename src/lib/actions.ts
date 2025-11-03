@@ -3,6 +3,7 @@
 import type { z } from "zod";
 import { contactFormSchema } from "./schemas";
 
+// This function is no longer used, but preserved in case it's needed later.
 export async function submitContactForm(data: z.infer<typeof contactFormSchema>) {
   const parsedData = contactFormSchema.safeParse(data);
 

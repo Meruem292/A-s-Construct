@@ -1,57 +1,12 @@
 "use client";
 
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import type { z } from "zod";
 import { Building, Facebook, Phone, Link as LinkIcon } from "lucide-react";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { useToast } from "@/hooks/use-toast";
-import { submitContactForm } from "@/lib/actions";
-import { contactFormSchema } from "@/lib/schemas";
 import { FadeIn } from "./fade-in";
 
 export default function Contact() {
-  const { toast } = useToast();
-
-  const form = useForm<z.infer<typeof contactFormSchema>>({
-    resolver: zodResolver(contactFormSchema),
-    defaultValues: {
-      name: "",
-      email: "",
-      message: "",
-    },
-  });
-
-  async function onSubmit(values: z.infer<typeof contactFormSchema>) {
-    const result = await submitContactForm(values);
-    if (result.success) {
-      toast({
-        title: "Success!",
-        description: result.message,
-      });
-      form.reset();
-    } else {
-      toast({
-        title: "Error",
-        description: result.message,
-        variant: "destructive",
-      });
-    }
-  }
-
   return (
     <section id="contact" className="bg-background">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
@@ -61,7 +16,7 @@ export default function Contact() {
               Get in Touch
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Have a project in mind? Let's talk. Fill out the form below or reach out to us directly.
+              Have a project in mind? Let's talk. Reach out to us directly or visit our office.
             </p>
           </div>
         </FadeIn>
@@ -99,62 +54,19 @@ export default function Contact() {
              </div>
           </FadeIn>
           <FadeIn delay={200} className="md:col-span-2">
-            <Card className="shadow-lg">
-              <CardContent className="p-6">
-                <Form {...form}>
-                  <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                    <FormField
-                      control={form.control}
-                      name="name"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Full Name</FormLabel>
-                          <FormControl>
-                            <Input placeholder="John Doe" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="email"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Email Address</FormLabel>
-                          <FormControl>
-                            <Input placeholder="you@example.com" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="message"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Your Message</FormLabel>
-                          <FormControl>
-                            <Textarea
-                              placeholder="Tell us about your project..."
-                              className="min-h-[120px]"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <Button
-                      type="submit"
-                      className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                      disabled={form.formState.isSubmitting}
-                    >
-                      {form.formState.isSubmitting ? "Sending..." : "Send Message"}
-                    </Button>
-                  </form>
-                </Form>
+            <Card className="shadow-lg overflow-hidden">
+              <CardContent className="p-0">
+                <div className="aspect-video w-full">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.770932263032!2d120.95408587483486!3d14.38260798608053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3eb813deef5%3A0xc63b156715878cb1!2sSan%20Luis%201%20Rd%2C%20Dasmari%C3%B1as%2C%20Cavite!5e0!3m2!1sen!2sph!4v1724610173295!5m2!1sen!2sph" 
+                    width="100%" 
+                    height="100%" 
+                    style={{border:0}} 
+                    allowFullScreen={true}
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+                </div>
               </CardContent>
             </Card>
           </FadeIn>

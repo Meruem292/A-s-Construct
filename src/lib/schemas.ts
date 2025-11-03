@@ -1,5 +1,6 @@
 import { z } from "zod";
 
+// This schema is no longer used for the form, but preserved in case it's needed later.
 export const contactFormSchema = z.object({
   name: z.string().min(2, {
     message: "Name must be at least 2 characters.",
