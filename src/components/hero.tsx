@@ -20,16 +20,16 @@ export default function Hero() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center text-center">
         <FadeIn>
-          <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
+          <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
             Building Your Vision, Brick by Brick
           </h1>
         </FadeIn>
         <FadeIn delay={200}>
-          <p className="mt-6 max-w-3xl text-lg text-foreground/90 md:text-xl">
+          <p className="mt-6 max-w-3xl text-lg text-white/90 md:text-xl">
             We deliver top-quality construction services for residential and commercial projects, turning your ideas into reality with precision and passion.
           </p>
         </FadeIn>
@@ -38,7 +38,7 @@ export default function Hero() {
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
               <Link href="#contact">Request a Quote</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="bg-background/80">
+            <Button asChild size="lg" variant="outline" className="bg-background/80 text-foreground">
               <Link href="#portfolio">Our Work</Link>
             </Button>
           </div>
