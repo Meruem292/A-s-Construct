@@ -1,3 +1,88 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A modern building under construction with a crane against a sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1694521787162-5373b598945c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb24lMjBzaXRlfGVufDB8fHx8MTc2MjEzNDM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction site"
+    },
+    {
+      "id": "service-residential",
+      "description": "A beautiful modern house exterior.",
+      "imageUrl": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIwNjU2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "service-commercial",
+      "description": "A sleek commercial office building.",
+      "imageUrl": "https://images.unsplash.com/photo-1696738061271-401a7ef09e51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjIxMTE2NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office building"
+    },
+    {
+      "id": "service-renovation",
+      "description": "An interior renovation in progress, showing exposed beams and new wiring.",
+      "imageUrl": "https://images.unsplash.com/photo-1746067506030-735f82592ef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbnRlcmlvciUyMHJlbm92YXRpb258ZW58MHx8fHwxNzYyMDY0NDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interior renovation"
+    },
+    {
+      "id": "service-automation",
+      "description": "A robotic arm working on an assembly line.",
+      "imageUrl": "https://images.unsplash.com/photo-1641311281574-98b9e7a76479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2JvdGljJTIwYXJtfGVufDB8fHx8MTc2MjEzMzY5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotic arm"
+    },
+    {
+      "id": "portfolio-1",
+      "description": "An automated warehouse system with robotic carriers.",
+      "imageUrl": "https://images.unsplash.com/photo-1651525669944-00de65d3b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXV0b21hdGVkJTIwd2FyZWhvdXNlfGVufDB8fHx8MTc2MjE1MDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "automated warehouse"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "A close-up of a precision robotic welder in action.",
+      "imageUrl": "https://images.unsplash.com/photo-1728722973719-893a727618c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdGljJTIwd2VsZGVyfGVufDB8fHx8MTc2MjE1MDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotic welder"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "A smart home system control panel integrated into a modern living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1706774609219-56c61f8b3c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbWFydCUyMGhvbWV8ZW58MHx8fHwxNzYyMTA3MDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart home"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Architectural detail of a building facade.",
+      "imageUrl": "https://images.unsplash.com/photo-1494177242659-c726060f48dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidWlsZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3NjIxNTAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "building facade"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Interior of a newly constructed lobby with high ceilings.",
+      "imageUrl": "https://images.unsplash.com/photo-1749310726959-d8fccfef7ee4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBsb2JieXxlbnwwfHx8fDE3NjIxMTI2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern lobby"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Construction workers reviewing blueprints on site.",
+      "imageUrl": "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzfGVufDB8fHx8MTc2MjE0MjIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction workers"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A finished kitchen in a luxury apartment.",
+      "imageUrl": "https://images.unsplash.com/photo-1639405069836-f82aa6dcb900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MjA2ODgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Drone shot of a large-scale commercial construction project.",
+      "imageUrl": "https://images.unsplash.com/photo-1723107638784-a8fef41c3a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb25zdHJ1Y3Rpb24lMjBkcm9uZXxlbnwwfHx8fDE3NjIxNTAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction drone"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Landscaping around a completed residential project.",
+      "imageUrl": "https://images.unsplash.com/photo-1761637823293-f96835ec5038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBsYW5kc2NhcGluZ3xlbnwwfHx8fDE3NjIwODc5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern landscaping"
+    }
+  ]
 }
