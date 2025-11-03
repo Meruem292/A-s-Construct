@@ -14,7 +14,6 @@ import {
 import { PlaceHolderImages, type ImagePlaceholder } from "@/lib/placeholder-images";
 import { cn } from "@/lib/utils";
 import { FadeIn } from "./fade-in";
-import { Button } from "./ui/button";
 
 const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith("gallery-"));
 const ITEMS_PER_PAGE = 6;
@@ -78,29 +77,25 @@ export default function Gallery() {
             <Pagination className="mt-12">
               <PaginationContent>
                 <PaginationItem>
-                  <Button
-                    variant="ghost"
+                  <PaginationPrevious
                     onClick={handlePreviousPage}
-                    disabled={currentPage === 1}
-                    aria-label="Go to previous page"
-                  >
-                    <PaginationPrevious className="h-5 w-5" />
-                    <span className="hidden sm:inline ml-2">Previous</span>
-                  </Button>
+                    aria-disabled={currentPage === 1}
+                    className={cn(
+                      currentPage === 1 ? "pointer-events-none opacity-50" : "cursor-pointer"
+                    )}
+                  />
                 </PaginationItem>
                 <PaginationItem className="font-medium text-muted-foreground mx-4">
                   Page {currentPage} of {totalPages}
                 </PaginationItem>
                 <PaginationItem>
-                   <Button
-                    variant="ghost"
+                  <PaginationNext
                     onClick={handleNextPage}
-                    disabled={currentPage === totalPages}
-                    aria-label="Go to next page"
-                  >
-                    <span className="hidden sm:inline mr-2">Next</span>
-                    <PaginationNext className="h-5 w-5" />
-                  </Button>
+                    aria-disabled={currentPage === totalPages}
+                     className={cn(
+                      currentPage === totalPages ? "pointer-events-none opacity-50" : "cursor-pointer"
+                    )}
+                  />
                 </PaginationItem>
               </PaginationContent>
             </Pagination>
