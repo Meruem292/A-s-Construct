@@ -24,6 +24,7 @@ const AnimatedHeadline = ({ text }: { text: string }) => {
 export default function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === "hero-background");
   const headlineText = "Building Your Vision, Brick by Brick";
+  const words = headlineText.split(" ");
 
   return (
     <section className="relative h-[70vh] min-h-[500px] w-full pt-0 sm:pt-0">
@@ -61,5 +62,3 @@ export default function Hero() {
     </section>
   );
 }
-
-const words = "Building Your Vision, Brick by Brick".split(" ");
