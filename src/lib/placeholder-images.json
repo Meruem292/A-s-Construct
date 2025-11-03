@@ -26,39 +26,39 @@
     },
     {
       "id": "gallery-1",
-      "description": "A school building project.",
+      "description": "A metal canopy structure.",
+      "imageUrl": "/canopy.jpg",
+      "imageHint": "metal canopy"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A modern house under construction.",
+      "imageUrl": "/house1.png",
+      "imageHint": "house construction"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A person measuring for construction.",
+      "imageUrl": "/measuring.jpg",
+      "imageHint": "construction measurement"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A school building.",
       "imageUrl": "/school1.jpg",
       "imageHint": "school building"
     },
     {
-      "id": "gallery-2",
-      "description": "Another construction project.",
-      "imageUrl": "/school2.jpg",
-      "imageHint": "construction project"
-    },
-    {
-      "id": "gallery-3",
-      "description": "A completed construction project.",
-      "imageUrl": "/school3.jpg",
-      "imageHint": "completed project"
-    },
-    {
-      "id": "gallery-4",
-      "description": "A residential construction project.",
-      "imageUrl": "/school4.jpg",
-      "imageHint": "residential construction"
-    },
-    {
       "id": "gallery-5",
-      "description": "A commercial building project.",
-      "imageUrl": "/school5.jpg",
-      "imageHint": "commercial building"
+      "description": "Construction workers on a roof.",
+      "imageUrl": "/workings.jpg",
+      "imageHint": "construction workers"
     },
     {
       "id": "gallery-6",
-      "description": "An interior construction view.",
-      "imageUrl": "/school6.jpg",
-      "imageHint": "interior construction"
+      "description": "A construction site with workers.",
+      "imageUrl": "/works1.jpg",
+      "imageHint": "construction site"
     }
   ]
 }
