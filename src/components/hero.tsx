@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { FadeIn } from "./fade-in";
 
 const AnimatedHeadline = ({ text }: { text: string }) => {
@@ -22,23 +21,20 @@ const AnimatedHeadline = ({ text }: { text: string }) => {
 };
 
 export default function Hero() {
-  const heroImage = PlaceHolderImages.find((img) => img.id === "hero-background");
   const headlineText = "Building Your Vision, Brick by Brick";
   const words = headlineText.split(" ");
 
   return (
     <section className="relative h-[70vh] min-h-[500px] w-full pt-0 sm:pt-0">
       <div className="absolute inset-0 z-0">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
+        <Image
+          src="/heroBg.jpg"
+          alt="Hero background"
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint="construction site"
+        />
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center text-center">
