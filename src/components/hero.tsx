@@ -4,8 +4,26 @@ import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { FadeIn } from "./fade-in";
 
+const AnimatedHeadline = ({ text }: { text: string }) => {
+  const words = text.split(" ");
+  return (
+    <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
+      {words.map((word, index) => (
+        <span
+          key={index}
+          className="animate-stack-in"
+          style={{ animationDelay: `${index * 0.15}s` }}
+        >
+          {word}{' '}
+        </span>
+      ))}
+    </h1>
+  );
+};
+
 export default function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === "hero-background");
+  const headlineText = "Building Your Vision, Brick by Brick";
 
   return (
     <section className="relative h-[70vh] min-h-[500px] w-full pt-0 sm:pt-0">
@@ -23,17 +41,13 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center text-center">
-        <FadeIn>
-          <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-            Building Your Vision, Brick by Brick
-          </h1>
-        </FadeIn>
-        <FadeIn delay={200}>
-          <p className="mt-6 max-w-3xl text-lg text-white/90 md:text-xl">
+        <AnimatedHeadline text={headlineText} />
+        <FadeIn delay={words.length * 150 + 200}>
+          <p className="mt-6 max-w-3xl text-lg text-white md:text-xl">
             We deliver top-quality construction services for residential and commercial projects, turning your ideas into reality with precision and passion.
           </p>
         </FadeIn>
-        <FadeIn delay={400}>
+        <FadeIn delay={words.length * 150 + 400}>
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
               <Link href="#contact">Request a Quote</Link>
@@ -47,3 +61,5 @@ export default function Hero() {
     </section>
   );
 }
+
+const words = "Building Your Vision, Brick by Brick".split(" ");
