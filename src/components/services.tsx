@@ -24,13 +24,13 @@ const services = [
     icon: <Home className="h-10 w-10 text-accent" />,
     title: "Smart Home Integration",
     description:
-      "Seamlessly connect and control your home's systems for ultimate comfort and efficiency.",
+      "Seamlessly connect and control all your home's systems for ultimate comfort and efficiency.",
   },
   {
     icon: <Bot className="h-10 w-10 text-accent" />,
-    title: "Industrial Automation",
+    title: "Appliance Automation",
     description:
-      "Implementing advanced robotic systems to streamline operations and boost productivity in industrial settings.",
+      "Modernize your home by automating everyday appliances for convenience and intelligent control.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Services() {
               Our Expertise
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              We provide a comprehensive range of construction and automation services.
+              We provide a comprehensive range of smart home automation services.
             </p>
           </div>
         </FadeIn>

@@ -26,25 +26,25 @@ import { FadeIn } from "./fade-in";
 const portfolioItems = [
   {
     id: "portfolio-1",
-    title: "Automated Warehouse Logistics",
-    category: "Industrial Automation",
+    title: "Automated Gate & Security",
+    category: "Residential Automation",
     description:
-      "A comprehensive overhaul of a major distribution center, implementing a fleet of autonomous mobile robots (AMRs) that increased picking efficiency by 200%.",
+      "A comprehensive security and access control system for a private residence, featuring automated gates and integrated surveillance.",
     details:
-      "The project involved designing and deploying a custom warehouse management system (WMS) integrated with the AMR fleet. Our solution included AI-powered route optimization and real-time inventory tracking, significantly reducing operational costs and human error.",
+      "The project involved installing a custom automated gate system with remote access via a mobile app. We integrated this with high-definition security cameras and motion-activated lighting for a complete home security solution.",
   },
   {
     id: "portfolio-2",
-    title: "Precision Robotic Welding",
-    category: "Manufacturing",
+    title: "Intelligent Lighting System",
+    category: "Commercial Automation",
     description:
-      "Deployed a series of robotic arms for a high-precision welding line in an automotive parts manufacturing plant, achieving a 99.9% quality rating.",
+      "Deployed a smart, energy-efficient lighting system for a modern office space, reducing energy consumption by 40%.",
     details:
-      "We integrated 6-axis robotic arms with advanced vision systems to ensure perfect weld alignment and consistency. The system operates 24/7, increasing throughput and providing a safer working environment by removing human operators from hazardous tasks.",
+      "We installed a network of sensors and programmable LED fixtures that adjust based on natural light levels and room occupancy. Employees can also control lighting scenes in meeting rooms from a central tablet.",
   },
   {
     id: "portfolio-3",
-    title: "Smart Home Integration",
+    title: "Full Smart Home Integration",
     category: "Residential Tech",
     description:
       "Full-scale smart home automation for a luxury residential complex, providing seamless control over lighting, climate, security, and entertainment.",
@@ -64,10 +64,10 @@ export default function Portfolio() {
         <FadeIn>
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Automation in Action
+              Smart Automation in Action
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Explore our portfolio of innovative automation projects that are shaping the future of industry.
+              Explore our portfolio of innovative smart home projects that are shaping the future of living.
             </p>
           </div>
         </FadeIn>
