@@ -3,7 +3,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { z } from "zod";
-import { Building, Facebook, Phone } from "lucide-react";
+import { Building, Facebook, Phone, Link as LinkIcon } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -82,8 +82,9 @@ export default function Contact() {
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Message me</h3>
-                  <Link href="https://www.facebook.com/ariel.romero.99324" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link href="https://www.facebook.com/ariel.romero.99324" target="_blank" className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors underline underline-offset-4">
                     Ariel Romero
+                    <LinkIcon className="w-4 h-4"/>
                   </Link>
                </div>
              </div>
