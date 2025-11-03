@@ -22,7 +22,7 @@ export default function Footer() {
             <Link href="#" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5 text-muted-foreground transition-colors hover:text-foreground" />
             </Link>
-            <Link href="#" aria-label="Facebook">
+            <Link href="https://www.facebook.com/ariel.romero.99324" target="_blank" aria-label="Facebook">
               <Facebook className="h-5 w-5 text-muted-foreground transition-colors hover:text-foreground" />
             </Link>
           </div>

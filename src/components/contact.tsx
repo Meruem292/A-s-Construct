@@ -3,7 +3,8 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { z } from "zod";
-import { Building, Mail, Phone } from "lucide-react";
+import { Building, Facebook, Mail, Phone } from "lucide-react";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -72,16 +73,18 @@ export default function Contact() {
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Call Us</h3>
-                  <p className="text-muted-foreground">(123) 456-7890</p>
+                  <p className="text-muted-foreground">0946-615-7868</p>
                </div>
              </div>
              <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-3 rounded-full">
-                  <Mail className="w-6 h-6 text-primary"/>
+                  <Facebook className="w-6 h-6 text-primary"/>
                </div>
                <div>
-                  <h3 className="font-headline text-lg font-semibold">Email Us</h3>
-                  <p className="text-muted-foreground">contact@constructview.com</p>
+                  <h3 className="font-headline text-lg font-semibold">Message me</h3>
+                  <Link href="https://www.facebook.com/ariel.romero.99324" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                    Ariel Romero
+                  </Link>
                </div>
              </div>
              <div className="flex items-start gap-4">
@@ -90,7 +93,7 @@ export default function Contact() {
                </div>
                <div>
                   <h3 className="font-headline text-lg font-semibold">Our Office</h3>
-                  <p className="text-muted-foreground">123 Construction Ave, Metropolis</p>
+                  <p className="text-muted-foreground">San Luis 1 Dasmariñas City Cavite</p>
                </div>
              </div>
           </FadeIn>
