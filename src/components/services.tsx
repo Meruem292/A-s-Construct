@@ -1,4 +1,4 @@
-import { Building, HardHat, Wrench, Bot } from "lucide-react";
+import { Bot, Lightbulb, Home, DoorOpen } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -9,28 +9,28 @@ import { FadeIn } from "./fade-in";
 
 const services = [
   {
-    icon: <Building className="h-10 w-10 text-accent" />,
-    title: "Commercial Construction",
+    icon: <Lightbulb className="h-10 w-10 text-accent" />,
+    title: "Lighting Fixtures Automation",
     description:
-      "Large-scale commercial projects, including office buildings, retail spaces, and industrial facilities, delivered on time and on budget.",
+      "Smart lighting solutions to create ambiance, improve security, and save energy in any setting.",
   },
   {
-    icon: <HardHat className="h-10 w-10 text-accent" />,
-    title: "Residential Building",
+    icon: <DoorOpen className="h-10 w-10 text-accent" />,
+    title: "Gate Automation",
     description:
-      "Custom home building and multi-family residential developments with a focus on quality craftsmanship and modern design.",
+      "Secure and convenient automated gate systems for residential and commercial properties.",
   },
   {
-    icon: <Wrench className="h-10 w-10 text-accent" />,
-    title: "Renovations & Remodeling",
+    icon: <Home className="h-10 w-10 text-accent" />,
+    title: "Smart Home Integration",
     description:
-      "Transforming existing spaces with high-quality renovations that enhance functionality and aesthetic appeal for any property type.",
+      "Seamlessly connect and control your home's systems for ultimate comfort and efficiency.",
   },
   {
     icon: <Bot className="h-10 w-10 text-accent" />,
-    title: "Automation Integration",
+    title: "Industrial Automation",
     description:
-      "Implementing advanced automation and robotic systems to streamline operations and boost productivity in industrial and commercial settings.",
+      "Implementing advanced robotic systems to streamline operations and boost productivity in industrial settings.",
   },
 ];
 
