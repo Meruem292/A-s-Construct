@@ -4,14 +4,38 @@ import { useState } from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import { PlaceHolderImages, type ImagePlaceholder } from "@/lib/placeholder-images";
 import { cn } from "@/lib/utils";
 import { FadeIn } from "./fade-in";
+import { Button } from "./ui/button";
 
 const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith("gallery-"));
+const ITEMS_PER_PAGE = 6;
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<ImagePlaceholder | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalPages = Math.ceil(galleryImages.length / ITEMS_PER_PAGE);
+  const paginatedImages = galleryImages.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
+
+  const handlePreviousPage = () => {
+    setCurrentPage((prev) => Math.max(prev - 1, 1));
+  };
+
+  const handleNextPage = () => {
+    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  };
 
   return (
     <section id="gallery" className="bg-secondary">
@@ -26,14 +50,11 @@ export default function Gallery() {
             </p>
           </div>
         </FadeIn>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {galleryImages.map((image, idx) => (
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 min-h-[500px]">
+          {paginatedImages.map((image, idx) => (
             <FadeIn
               key={image.id}
               delay={idx * 50}
-              className={cn(
-                idx === 0 && "col-span-2 row-span-2"
-              )}
             >
               <div
                 className="relative aspect-square cursor-pointer overflow-hidden rounded-lg shadow-lg group"
@@ -45,13 +66,46 @@ export default function Gallery() {
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                   data-ai-hint={image.imageHint}
-                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+                  sizes="(max-width: 768px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
             </FadeIn>
           ))}
         </div>
+        {totalPages > 1 && (
+          <FadeIn>
+            <Pagination className="mt-12">
+              <PaginationContent>
+                <PaginationItem>
+                  <Button
+                    variant="ghost"
+                    onClick={handlePreviousPage}
+                    disabled={currentPage === 1}
+                    aria-label="Go to previous page"
+                  >
+                    <PaginationPrevious className="h-5 w-5" />
+                    <span className="hidden sm:inline ml-2">Previous</span>
+                  </Button>
+                </PaginationItem>
+                <PaginationItem className="font-medium text-muted-foreground mx-4">
+                  Page {currentPage} of {totalPages}
+                </PaginationItem>
+                <PaginationItem>
+                   <Button
+                    variant="ghost"
+                    onClick={handleNextPage}
+                    disabled={currentPage === totalPages}
+                    aria-label="Go to next page"
+                  >
+                    <span className="hidden sm:inline mr-2">Next</span>
+                    <PaginationNext className="h-5 w-5" />
+                  </Button>
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </FadeIn>
+        )}
       </div>
       
       <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>

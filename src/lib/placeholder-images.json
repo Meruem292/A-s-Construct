@@ -59,6 +59,36 @@
       "description": "A construction site with workers.",
       "imageUrl": "/works1.jpg",
       "imageHint": "construction site"
+    },
+    {
+      "id": "gallery-7",
+      "description": "A laboratory building.",
+      "imageUrl": "/labatory.jpg",
+      "imageHint": "laboratory building"
+    },
+    {
+      "id": "gallery-8",
+      "description": "A house veranda.",
+      "imageUrl": "/luzviBerranda.jpg",
+      "imageHint": "house veranda"
+    },
+    {
+      "id": "gallery-9",
+      "description": "Roofing construction work.",
+      "imageUrl": "/roofing1.jpg",
+      "imageHint": "roofing construction"
+    },
+    {
+      "id": "gallery-10",
+      "description": "Another view of roofing construction.",
+      "imageUrl": "/roofing2.jpg",
+      "imageHint": "roofing work"
+    },
+    {
+      "id": "gallery-11",
+      "description": "A modern white house exterior.",
+      "imageUrl": "/whiteHouse.jpg",
+      "imageHint": "white house"
     }
   ]
 }
