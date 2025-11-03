@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { HardHat, Menu } from "lucide-react";
+import Image from "next/image";
+import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -44,7 +45,7 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <HardHat className="h-7 w-7 text-primary" />
+          <Image src="/ALogo.jpg" alt="A's Construct Logo" width={40} height={40} className="rounded-full" />
           <span className="font-headline text-2xl font-bold text-foreground">
             A's Construct
           </span>
@@ -78,7 +79,7 @@ export default function Header() {
                     className="flex items-center gap-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <HardHat className="h-7 w-7 text-primary" />
+                    <Image src="/ALogo.jpg" alt="A's Construct Logo" width={40} height={40} className="rounded-full" />
                     <span className="font-headline text-2xl font-bold text-foreground">
                       A's Construct
                     </span>

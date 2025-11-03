@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { HardHat, Twitter, Linkedin, Facebook } from "lucide-react";
+import Image from "next/image";
+import { Twitter, Linkedin, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto max-w-7xl px-4 py-8 md:px-6">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <Link href="/" className="flex items-center gap-2">
-            <HardHat className="h-6 w-6 text-primary" />
+            <Image src="/ALogo.jpg" alt="A's Construct Logo" width={32} height={32} className="rounded-full" />
             <span className="font-headline text-xl font-bold text-foreground">
               A's Construct
             </span>
