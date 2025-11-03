@@ -9,11 +9,11 @@ export default function Footer() {
           <Link href="/" className="flex items-center gap-2">
             <HardHat className="h-6 w-6 text-primary" />
             <span className="font-headline text-xl font-bold text-foreground">
-              ConstructView
+              A's Construct
             </span>
           </Link>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} ConstructView. All rights reserved.
+            © {new Date().getFullYear()} A's Construct. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="#" aria-label="Twitter">

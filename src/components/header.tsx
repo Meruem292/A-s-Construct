@@ -46,7 +46,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <HardHat className="h-7 w-7 text-primary" />
           <span className="font-headline text-2xl font-bold text-foreground">
-            ConstructView
+            A's Construct
           </span>
         </Link>
 
@@ -80,7 +80,7 @@ export default function Header() {
                   >
                     <HardHat className="h-7 w-7 text-primary" />
                     <span className="font-headline text-2xl font-bold text-foreground">
-                      ConstructView
+                      A's Construct
                     </span>
                   </Link>
                 </SheetTitle>
