@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ConstructView",
-  description: "Excellence in Construction and Automation",
+  description: "Excellence in Construction",
 };
 
 export default function RootLayout({

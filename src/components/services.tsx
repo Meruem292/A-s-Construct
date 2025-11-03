@@ -1,4 +1,4 @@
-import { Bot, Lightbulb, Home, DoorOpen } from "lucide-react";
+import { Building, HardHat, Wrench, Bot } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -9,28 +9,28 @@ import { FadeIn } from "./fade-in";
 
 const services = [
   {
-    icon: <Lightbulb className="h-10 w-10 text-accent" />,
-    title: "Lighting Fixtures Automation",
+    icon: <Building className="h-10 w-10 text-accent" />,
+    title: "Commercial Construction",
     description:
-      "Smart lighting solutions to create ambiance, improve security, and save energy in any setting.",
+      "Building large-scale commercial properties from the ground up, tailored to your business needs.",
   },
   {
-    icon: <DoorOpen className="h-10 w-10 text-accent" />,
-    title: "Gate Automation",
+    icon: <HardHat className="h-10 w-10 text-accent" />,
+    title: "Residential Construction",
     description:
-      "Secure and convenient automated gate systems for residential and commercial properties.",
+      "Crafting high-quality custom homes and residential complexes with attention to detail and craftsmanship.",
   },
   {
-    icon: <Home className="h-10 w-10 text-accent" />,
-    title: "Smart Home Integration",
+    icon: <Wrench className="h-10 w-10 text-accent" />,
+    title: "Renovations & Remodeling",
     description:
-      "Seamlessly connect and control all your home's systems for ultimate comfort and efficiency.",
+      "Transforming existing spaces with modern upgrades, historic restorations, and functional improvements.",
   },
   {
     icon: <Bot className="h-10 w-10 text-accent" />,
-    title: "Appliance Automation",
+    title: "Automation & Robotic Systems",
     description:
-      "Modernize your home by automating everyday appliances for convenience and intelligent control.",
+      "Implementing advanced automation to streamline operations and boost productivity in industrial and commercial settings.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Services() {
               Our Expertise
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              We provide a comprehensive range of smart home automation services.
+              We provide a comprehensive range of construction and automation services.
             </p>
           </div>
         </FadeIn>

@@ -2,51 +2,27 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A modern living room with smart home controls on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1599691456943-41c3913337a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWFydCUyMGhvbWUlMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MjE5MjY0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smart home"
+      "description": "A stunning modern building with a geometric facade against a clear blue sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyMDY1NjUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
     },
     {
-      "id": "service-residential",
-      "description": "A beautiful modern house exterior.",
+      "id": "portfolio-1",
+      "description": "Exterior of a beautiful, modern family house.",
       "imageUrl": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjIwNjU2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern house"
     },
     {
-      "id": "service-commercial",
-      "description": "A sleek commercial office building.",
+      "id": "portfolio-2",
+      "description": "A sleek and modern commercial office building with a glass facade.",
       "imageUrl": "https://images.unsplash.com/photo-1696738061271-401a7ef09e51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjIxMTE2NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "office building"
     },
     {
-      "id": "service-renovation",
-      "description": "An interior renovation in progress, showing exposed beams and new wiring.",
+      "id": "portfolio-3",
+      "description": "An interior renovation in progress, showing exposed beams, new wiring, and workers.",
       "imageUrl": "https://images.unsplash.com/photo-1746067506030-735f82592ef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbnRlcmlvciUyMHJlbm92YXRpb258ZW58MHx8fHwxNzYyMDY0NDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "interior renovation"
-    },
-    {
-      "id": "service-automation",
-      "description": "A robotic arm working on an assembly line.",
-      "imageUrl": "https://images.unsplash.com/photo-1641311281574-98b9e7a76479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb2JvdGljJTIwYXJtfGVufDB8fHx8MTc2MjEzMzY5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "robotic arm"
-    },
-    {
-      "id": "portfolio-1",
-      "description": "An automated gate opening for a modern home.",
-      "imageUrl": "https://images.unsplash.com/photo-1620670183189-014b9255748a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdXRvbWF0ZWQlMjBnYXRlfGVufDB8fHx8MTc2MjE5MjY0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "automated gate"
-    },
-    {
-      "id": "portfolio-2",
-      "description": "Smart lighting fixtures in a stylish office.",
-      "imageUrl": "https://images.unsplash.com/photo-1540998145393-8c4371741636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGxpZ2h0aW5nJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjE5MjY0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smart lighting"
-    },
-    {
-      "id": "portfolio-3",
-      "description": "A smart home system control panel integrated into a modern living room.",
-      "imageUrl": "https://images.unsplash.com/photo-1706774609219-56c61f8b3c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbWFydCUyMGhvbWV8ZW58MHx8fHwxNzYyMTA3MDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smart home"
     },
     {
       "id": "gallery-1",

@@ -26,30 +26,30 @@ import { FadeIn } from "./fade-in";
 const portfolioItems = [
   {
     id: "portfolio-1",
-    title: "Automated Gate & Security",
-    category: "Residential Automation",
+    title: "Modern Residential Home",
+    category: "Residential Construction",
     description:
-      "A comprehensive security and access control system for a private residence, featuring automated gates and integrated surveillance.",
+      "A ground-up construction of a modern family home, featuring sustainable materials and an open-concept design.",
     details:
-      "The project involved installing a custom automated gate system with remote access via a mobile app. We integrated this with high-definition security cameras and motion-activated lighting for a complete home security solution.",
+      "This project involved a full-cycle construction process from foundation to finishing. We worked closely with the architects to ensure every detail was executed to perfection, delivering a high-quality, energy-efficient home on time and within budget.",
   },
   {
     id: "portfolio-2",
-    title: "Intelligent Lighting System",
-    category: "Commercial Automation",
+    title: "Commercial Office Complex",
+    category: "Commercial Construction",
     description:
-      "Deployed a smart, energy-efficient lighting system for a modern office space, reducing energy consumption by 40%.",
+      "Development of a state-of-the-art office complex, creating a dynamic and productive workspace for over 500 employees.",
     details:
-      "We installed a network of sensors and programmable LED fixtures that adjust based on natural light levels and room occupancy. Employees can also control lighting scenes in meeting rooms from a central tablet.",
+      "Our team managed the large-scale construction, including structural steelwork, modern glass facades, and complete interior fit-out. The project was completed in phases to allow for early tenant occupancy, showcasing our project management capabilities.",
   },
   {
     id: "portfolio-3",
-    title: "Full Smart Home Integration",
-    category: "Residential Tech",
+    title: "Historic Building Renovation",
+    category: "Renovation & Restoration",
     description:
-      "Full-scale smart home automation for a luxury residential complex, providing seamless control over lighting, climate, security, and entertainment.",
+      "Sensitive restoration and modernization of a landmark historic building, preserving its heritage while upgrading its facilities.",
     details:
-      "Our team designed a centralized control system accessible via custom-branded touch panels and a mobile app. The system integrates products from various manufacturers into a single, intuitive user interface, offering residents unparalleled convenience and energy efficiency.",
+      "This complex renovation required careful preservation of historical elements while integrating modern amenities. We collaborated with conservation specialists to restore the original facade and interiors, successfully blending the old with the new.",
   },
 ];
 
@@ -64,10 +64,10 @@ export default function Portfolio() {
         <FadeIn>
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Smart Automation in Action
+              Our Craft in Action
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Explore our portfolio of innovative smart home projects that are shaping the future of living.
+              Explore our portfolio of successfully completed construction projects that stand as a testament to our commitment to quality.
             </p>
           </div>
         </FadeIn>
