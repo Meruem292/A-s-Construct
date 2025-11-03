@@ -58,7 +58,7 @@ export default function Contact() {
               <CardContent className="p-0">
                 <div className="aspect-video w-full">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.770932263032!2d120.95408587483486!3d14.38260798608053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3eb813deef5%3A0xc63b156715878cb1!2sSan%20Luis%201%20Rd%2C%20Dasmari%C3%B1as%2C%20Cavite!5e0!3m2!1sen!2sph!4v1724610173295!5m2!1sen!2sph" 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d324.8029058920718!2d120.96300552610933!3d14.310708091348115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1762151714479!5m2!1sen!2sph"
                     width="100%" 
                     height="100%" 
                     style={{border:0}} 
